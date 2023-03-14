@@ -16,6 +16,9 @@ burger_close.addEventListener('click', (event) => {
     burger_close.classList.remove('opened__close');
 });
 
-text.addEventListener('focus', (event) => {
+text.addEventListener('focusin', (event) => {
     input.style.background = 'white'
+});
+text.addEventListener('focusout', (event) => {
+    input.style.background = 'none'
 });

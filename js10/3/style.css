@@ -60,9 +60,17 @@ nav .container .burger .burger__content .search .text {
   outline: none;
 }
 nav .container .burger .burger__content .search .btn {
-  width: 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: none;
   border: none;
+}
+nav .container .burger .burger__content .search .btn img {
+  width: 50%;
 }
 nav .container .burger .burger__content .links {
   display: -webkit-box;
