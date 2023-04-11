@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: aliceblue;
+}
+nav .links {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .links a {
+  text-decoration: none;
+  color: #151532;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+nav .theme-btn {
+  border: none;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #151532;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .text {
+  width: 50%;
+}
+section .text p {
+  font-size: 17px;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #151532;
+}
+section .img {
+  width: 50%;
+}
+section .img img {
+  width: 100%;
+}
+
+nav.dark {
+  background-color: #151532;
+}
+nav.dark a {
+  color: aliceblue;
+}
+
+.theme-btn.dark {
+  background-color: aliceblue;
+  color: #151532;
+}
+
+body.dark {
+  background-color: #24243c;
+}
+body.dark p {
+  color: aliceblue;
+}
