@@ -71,21 +71,19 @@ section .img img {
   width: 100%;
 }
 
-nav.dark {
-  background-color: #151532;
-}
-nav.dark a {
-  color: aliceblue;
-}
-
-.theme-btn.dark {
-  background-color: aliceblue;
-  color: #151532;
-}
-
 body.dark {
   background-color: #24243c;
 }
 body.dark p {
   color: aliceblue;
+}
+body.dark nav {
+  background-color: #151532;
+}
+body.dark nav a {
+  color: aliceblue;
+}
+body.dark .theme-btn {
+  background-color: aliceblue;
+  color: #151532;
 }

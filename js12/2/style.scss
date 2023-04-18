@@ -56,22 +56,20 @@ section{
     }
 }
 
-
-nav.dark{
-    background-color: #151532;
-    a{
-        color: aliceblue;        
-    }
-
-}
-.theme-btn.dark{
-    background-color: aliceblue;
-    color: #151532;
-}
-
 body.dark{
     background-color: #24243c;
     p{
         color: aliceblue;
+    }
+    nav{
+        background-color: #151532;
+        a{
+            color: aliceblue;        
+        }
+    
+    }
+    .theme-btn{
+        background-color: aliceblue;
+        color: #151532;
     }
 }
